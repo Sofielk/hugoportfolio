@@ -2,3 +2,96 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "forty"
+
+  # Navigation Section
+  [params.navigation]
+    title = "Title"
+    subtitle = "Subtitle"
+    menu = "Menu"
+    # Optional logo as brand stored in img/
+    # logo = "logo.png"
+
+    [[params.navigation.links]]
+      name = "Home"
+      url = "#" 
+
+    [[params.navigation.links]]
+      name = "About"
+      url = "about"
+
+    [[params.navigation.links]]
+      name = "Contact"
+      url = "contact"
+      
+  # Banner section
+  [params.banner]
+    # To change the background image on the homepage banner, replace 'banner.jpg' in
+    # the 'static/img' folder.
+    title = "Welcome to my Portfolio"
+    subtitle = "EXPLORE MY WORK AND PROJECTS"
+    buttonText = "Discover my work"      
+      
+    # Tiles Section
+  [params.tiles]
+    enable = true
+    # Display your showcases here.
+    
+    [[params.tiles.showcase]]
+      title = "Case 1"
+      subtitle = "Ipsum Dolor Sit Amet"
+      image = "pic01.jpg"
+      url = "portfolio/case1"
+
+    [[params.tiles.showcase]]
+      title = "Case 2"
+      subtitle = "Feugiat Amet Tempus"
+      image = "pic02.jpg"
+      url = "portfolio/case2"
+
+    [[params.tiles.showcase]]
+      title = "Case 3"
+      subtitle = "Lorem Etiam Nullam"
+      image = "pic03.jpg"
+      url = "portfolio/case3"
+
+    [[params.tiles.showcase]]
+      title = "Case 4"
+      subtitle = "Nisl Sed Aliquam"
+      image = "pic04.jpg"
+      url = "portfolio/case4"
+
+  # Contact section
+  [params.contact]
+    enable = true
+    buttonSend = "Send message"
+    buttonClear = "Clear"
+
+    # Since this template is static, the contact form uses www.formspree.io as a
+    # proxy. The form makes a POST request to their servers to send the actual
+    # email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below and uncomment
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+    # formEmail = "Sofie.linde@gmail.com"
+
+    # Contact Section
+    # You can add multiple emails, phone numbers, or addresses
+    # by copying the corresponding map with frontmatter code.
+    [[params.contact.email]]
+    title = "Email"
+    email = "example@domain.com"
+
+    [[params.contact.phone]]
+    title = "Phone"
+    phone = "(000) 000-0000 x1234"
+
+    [[params.contact.address]]
+    title = "Address"
+    street = "Street"
+    city = "City, ST 00000"
+    country = "Country"
