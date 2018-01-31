@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://soliki.dk/kea/3semester/hugoportfolio/portfolio/case4/</loc>
+    <lastmod>2018-01-31T00:09:54+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://soliki.dk/kea/3semester/hugoportfolio/portfolio/case3/</loc>
+    <lastmod>2018-01-31T00:09:46+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://soliki.dk/kea/3semester/hugoportfolio/portfolio/case2/</loc>
+    <lastmod>2018-01-31T00:09:32+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://soliki.dk/kea/3semester/hugoportfolio/portfolio/case1/</loc>
+    <lastmod>2018-01-31T00:09:18+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://soliki.dk/kea/3semester/hugoportfolio/contact/</loc>
+    <lastmod>2018-01-31T00:08:53+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://soliki.dk/kea/3semester/hugoportfolio/about/</loc>
+    <lastmod>2018-01-31T00:08:46+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://soliki.dk/kea/3semester/hugoportfolio/</loc>
+    <lastmod>2018-01-31T00:03:58+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://soliki.dk/kea/3semester/hugoportfolio/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://soliki.dk/kea/3semester/hugoportfolio/portfolio/</loc>
+    <lastmod>2018-01-31T00:09:54+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://soliki.dk/kea/3semester/hugoportfolio/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
